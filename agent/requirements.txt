@@ -1,0 +1,11 @@
+requests==2.31.0
+schedule==1.2.0
+psutil==5.9.5
+python-apt==2.7.0; sys_platform == "linux"
+cryptography==41.0.7
+pyjwt==2.8.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+packaging==23.2
+distro==1.8.0
+xmltodict==0.13.0
