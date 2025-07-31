@@ -1,0 +1,52 @@
+{
+  "scan_interval": 3600,
+  "api_endpoint": "https://api.example.com/vulnerability-reports",
+  "api_key": "",
+  "log_level": "INFO",
+  "log_file": "vulnerability_scanner.log",
+  "enable_cve_matching": true,
+  "max_packages_to_scan": 50,
+  "vulners_api_key": "",
+  "nvd_api_key": "",
+  "timeout_seconds": 30,
+  "retry_attempts": 3,
+  "exclude_packages": [
+    "test-package",
+    "debug-tools"
+  ],
+  "include_package_managers": [
+    "dpkg",
+    "rpm",
+    "pacman",
+    "pip",
+    "windows_installer"
+  ],
+  "scan_options": {
+    "system_info": true,
+    "packages": true,
+    "open_ports": true,
+    "running_processes": true,
+    "vulnerabilities": true
+  },
+  "network_scan": {
+    "timeout": 5,
+    "max_ports": 65535,
+    "skip_common_ports": false
+  },
+  "output": {
+    "save_local": true,
+    "output_directory": "./scan_results",
+    "compress_results": false,
+    "max_results_to_keep": 10
+  },
+  "notifications": {
+    "email_enabled": false,
+    "email_smtp_server": "",
+    "email_smtp_port": 587,
+    "email_username": "",
+    "email_password": "",
+    "email_recipients": [],
+    "slack_webhook": "",
+    "webhook_enabled": false
+  }
+}

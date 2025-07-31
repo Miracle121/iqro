@@ -1,0 +1,3014 @@
+{
+  "scan_id": "scan_1753958048",
+  "timestamp": "2025-07-31T10:34:08.616066",
+  "system_info": {
+    "hostname": "cursor",
+    "platform": "Linux-6.12.8+-x86_64-with-glibc2.41",
+    "system": "Linux",
+    "release": "6.12.8+",
+    "version": "#11 SMP PREEMPT_DYNAMIC Sun Jul  6 04:56:39 UTC 2025",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "architecture": [
+      "64bit",
+      ""
+    ],
+    "cpu_count": 4,
+    "memory_total": 16776851456,
+    "disk_usage": {
+      "/etc/resolv.conf": {
+        "total": 135152996352,
+        "used": 6298472448,
+        "free": 121965838336,
+        "filesystem": "ext4"
+      },
+      "/etc/hostname": {
+        "total": 135152996352,
+        "used": 6298472448,
+        "free": 121965838336,
+        "filesystem": "ext4"
+      },
+      "/etc/hosts": {
+        "total": 135152996352,
+        "used": 6298472448,
+        "free": 121965838336,
+        "filesystem": "ext4"
+      }
+    },
+    "network_interfaces": [
+      {
+        "interface": "lo",
+        "ip": "127.0.0.1",
+        "netmask": "255.0.0.0"
+      },
+      {
+        "interface": "eth0",
+        "ip": "172.30.0.2",
+        "netmask": "255.255.255.0"
+      },
+      {
+        "interface": "docker0",
+        "ip": "172.17.0.1",
+        "netmask": "255.255.0.0"
+      }
+    ],
+    "timestamp": "2025-07-31T10:34:08.618075"
+  },
+  "packages": [
+    {
+      "name": "adduser",
+      "version": "3.137ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "adwaita-icon-theme",
+      "version": "48.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "alsa-topology-conf",
+      "version": "1.2.5.1-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "alsa-ucm-conf",
+      "version": "1.2.12-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "apt",
+      "version": "3.0.0",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "at-spi2-common",
+      "version": "2.56.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "at-spi2-core",
+      "version": "2.56.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "base-files",
+      "version": "13.6ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "base-passwd",
+      "version": "3.6.6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "bash",
+      "version": "5.2.37-1.1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binfmt-support",
+      "version": "2.2.2-7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binutils",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binutils-common:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binutils-gold",
+      "version": "2.44-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binutils-gold-x86-64-linux-gnu",
+      "version": "2.44-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "binutils-x86-64-linux-gnu",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "bsdextrautils",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "bsdutils",
+      "version": "1:2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "build-essential",
+      "version": "12.12ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8-6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "20241223",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ca-certificates-java",
+      "version": "20240118",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "clang",
+      "version": "1:20.0-63ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "clang-20",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "clang-tools-20",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cmake",
+      "version": "3.31.6-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cmake-data",
+      "version": "3.31.6-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "coreutils",
+      "version": "9.5-1ubuntu1.25.04.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cpp",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cpp-14",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cpp-14-x86-64-linux-gnu",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "cpp-x86-64-linux-gnu",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "curl",
+      "version": "8.12.1-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dash",
+      "version": "0.5.12-12ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus-bin",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus-daemon",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus-session-bus-common",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus-system-bus-common",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dbus-user-session",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dconf-gsettings-backend:amd64",
+      "version": "0.40.0-5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dconf-service",
+      "version": "0.40.0-5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "debconf",
+      "version": "1.5.87ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "debianutils",
+      "version": "5.21",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "default-jdk",
+      "version": "2:1.21-76",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "default-jdk-headless",
+      "version": "2:1.21-76",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "default-jre",
+      "version": "2:1.21-76",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "default-jre-headless",
+      "version": "2:1.21-76",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "diffutils",
+      "version": "1:3.10-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dirmngr",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dmsetup",
+      "version": "2:1.02.201-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dpkg",
+      "version": "1.22.18ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "dpkg-dev",
+      "version": "1.22.18ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "e2fsprogs",
+      "version": "1.47.2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacs",
+      "version": "1:30.1+1-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacs-bin-common",
+      "version": "1:30.1+1-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacs-common",
+      "version": "1:30.1+1-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacs-el",
+      "version": "1:30.1+1-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacs-gtk",
+      "version": "1:30.1+1-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "emacsen-common",
+      "version": "3.0.7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fakeroot",
+      "version": "1.37.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "findutils",
+      "version": "4.10.0-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fontconfig",
+      "version": "2.15.0-2.2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fontconfig-config",
+      "version": "2.15.0-2.2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fonts-dejavu-core",
+      "version": "2.37-8",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fonts-dejavu-extra",
+      "version": "2.37-8",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fonts-dejavu-mono",
+      "version": "2.37-8",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "fonts-noto-color-emoji",
+      "version": "2.047-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "g++",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "g++-14",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "g++-14-x86-64-linux-gnu",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "g++-x86-64-linux-gnu",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc-14",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc-14-base:amd64",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc-14-x86-64-linux-gnu",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc-15-base:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gcc-x86-64-linux-gnu",
+      "version": "4:14.2.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gir1.2-girepository-2.0:amd64",
+      "version": "1.84.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gir1.2-glib-2.0:amd64",
+      "version": "2.84.1-1ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "git",
+      "version": "1:2.48.1-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "git-man",
+      "version": "1:2.48.1-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gnupg",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gnupg-l10n",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gnupg-utils",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "golang-1.24-go",
+      "version": "1.24.2-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "golang-1.24-src",
+      "version": "1.24.2-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "golang-go:amd64",
+      "version": "2:1.24~2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "golang-src",
+      "version": "2:1.24~2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpg",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpg-agent",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpg-wks-client",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpgconf",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpgsm",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gpgv",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "grep",
+      "version": "3.11-4build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "groff-base",
+      "version": "1.23.0-7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gsasl-common",
+      "version": "2.2.1-1willsync1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gsettings-desktop-schemas",
+      "version": "48.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gtk-update-icon-cache",
+      "version": "4.18.4+ds-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "guile-3.0-libs:amd64",
+      "version": "3.0.10+really3.0.10-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "gzip",
+      "version": "1.13-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "hicolor-icon-theme",
+      "version": "0.18-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "hostname",
+      "version": "3.25",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "htop",
+      "version": "3.4.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "init-system-helpers",
+      "version": "1.68",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "install-info",
+      "version": "7.1.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "iputils-ping",
+      "version": "3:20240905-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "java-common",
+      "version": "0.76",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "javascript-common",
+      "version": "12",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "keyboxd",
+      "version": "2.4.4-2ubuntu23",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "krb5-locales",
+      "version": "1.21.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "less",
+      "version": "643-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "lib32gcc-s1",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "lib32stdc++6",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libacl1:amd64",
+      "version": "2.3.2-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libalgorithm-diff-perl",
+      "version": "1.201-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libalgorithm-diff-xs-perl",
+      "version": "0.04-9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libalgorithm-merge-perl",
+      "version": "0.08-5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libaom3:amd64",
+      "version": "3.12.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libapparmor1:amd64",
+      "version": "4.1.0~beta5-0ubuntu14",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libapt-pkg7.0:amd64",
+      "version": "3.0.0",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libarchive13t64:amd64",
+      "version": "3.7.7-0ubuntu2.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libasan8:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libasound2-data",
+      "version": "1.2.13-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libasound2t64:amd64",
+      "version": "1.2.13-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libassuan9:amd64",
+      "version": "3.0.2-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatk-bridge2.0-0t64:amd64",
+      "version": "2.56.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatk-wrapper-java",
+      "version": "0.40.0-3build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatk-wrapper-java-jni:amd64",
+      "version": "0.40.0-3build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatk1.0-0t64:amd64",
+      "version": "2.56.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatomic1:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libatspi2.0-0t64:amd64",
+      "version": "2.56.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libattr1:amd64",
+      "version": "1:2.5.2-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libaudit-common",
+      "version": "1:4.0.2-2ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libaudit1:amd64",
+      "version": "1:4.0.2-2ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libavahi-client3:amd64",
+      "version": "0.8-16ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libavahi-common-data:amd64",
+      "version": "0.8-16ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libavahi-common3:amd64",
+      "version": "0.8-16ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libbinutils:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libblkid1:amd64",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libbrotli1:amd64",
+      "version": "1.1.0-2build4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libbsd0:amd64",
+      "version": "0.12.2-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libbz2-1.0:amd64",
+      "version": "1.0.8-6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libc-bin",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libc-dev-bin",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libc6:amd64",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libc6-dev:amd64",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libc6-i386",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcairo-gobject2:amd64",
+      "version": "1.18.4-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcairo2:amd64",
+      "version": "1.18.4-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcap-ng0:amd64",
+      "version": "0.8.5-4build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcap2:amd64",
+      "version": "1:2.73-4ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcbor0.10:amd64",
+      "version": "0.10.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcc1-0:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libclang-common-20-dev:amd64",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libclang-cpp20",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libclang-rt-20-dev:amd64",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libclang1-20",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcolord2:amd64",
+      "version": "1.4.7-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcom-err2:amd64",
+      "version": "1.47.2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcrypt-dev:amd64",
+      "version": "1:4.4.38-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcrypt1:amd64",
+      "version": "1:4.4.38-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcryptsetup12:amd64",
+      "version": "2:2.7.5-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libctf-nobfd0:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libctf0:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcups2t64:amd64",
+      "version": "2.4.12-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcurl3t64-gnutls:amd64",
+      "version": "8.12.1-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libcurl4t64:amd64",
+      "version": "8.12.1-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdatrie1:amd64",
+      "version": "0.2.13-3build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdb5.3t64:amd64",
+      "version": "5.3.28+dfsg2-9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdbus-1-3:amd64",
+      "version": "1.16.2-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdconf1:amd64",
+      "version": "0.40.0-5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libde265-0:amd64",
+      "version": "1.0.15-1build5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdebconfclient0:amd64",
+      "version": "0.277ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdeflate0:amd64",
+      "version": "1.23-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdevmapper1.02.1:amd64",
+      "version": "2:1.02.201-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdpkg-perl",
+      "version": "1.22.18ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdrm-amdgpu1:amd64",
+      "version": "2.4.124-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdrm-common",
+      "version": "2.4.124-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdrm-intel1:amd64",
+      "version": "2.4.124-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libdrm2:amd64",
+      "version": "2.4.124-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libedit2:amd64",
+      "version": "3.1-20250104-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libelf1t64:amd64",
+      "version": "0.192-4ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libepoxy0:amd64",
+      "version": "1.5.10-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liberror-perl",
+      "version": "0.17030-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libevent-core-2.1-7t64:amd64",
+      "version": "2.1.12-stable-10",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libexpat1:amd64",
+      "version": "2.7.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libexpat1-dev:amd64",
+      "version": "2.7.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libext2fs2t64:amd64",
+      "version": "1.47.2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfakeroot:amd64",
+      "version": "1.37.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libffi-dev:amd64",
+      "version": "3.4.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libffi8:amd64",
+      "version": "3.4.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfido2-1:amd64",
+      "version": "1.15.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfile-fcntllock-perl",
+      "version": "0.22-4ubuntu6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfontconfig1:amd64",
+      "version": "2.15.0-2.2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfontenc1:amd64",
+      "version": "1:1.1.8-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfreetype6:amd64",
+      "version": "2.13.3+dfsg-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libfribidi0:amd64",
+      "version": "1.0.16-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgbm1:amd64",
+      "version": "25.0.3-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgc1:amd64",
+      "version": "1:8.2.8-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgcc-14-dev:amd64",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgcc-s1:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgccjit0:amd64",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgcrypt20:amd64",
+      "version": "1.11.0-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgd3:amd64",
+      "version": "2.3.3-12ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgdbm-compat4t64:amd64",
+      "version": "1.24-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgdbm6t64:amd64",
+      "version": "1.24-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgdk-pixbuf-2.0-0:amd64",
+      "version": "2.42.12+dfsg-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgdk-pixbuf2.0-bin",
+      "version": "2.42.12+dfsg-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgdk-pixbuf2.0-common",
+      "version": "2.42.12+dfsg-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgif7:amd64",
+      "version": "5.2.2-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgirepository-1.0-1:amd64",
+      "version": "1.84.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgl1:amd64",
+      "version": "1.7.0-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgl1-mesa-dri:amd64",
+      "version": "25.0.3-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libglib2.0-0t64:amd64",
+      "version": "2.84.1-1ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libglib2.0-data",
+      "version": "2.84.1-1ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libglvnd0:amd64",
+      "version": "1.7.0-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libglx-mesa0:amd64",
+      "version": "25.0.3-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libglx0:amd64",
+      "version": "1.7.0-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgmp10:amd64",
+      "version": "2:6.3.0+dfsg-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgnutls30t64:amd64",
+      "version": "3.8.9-2ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgomp1:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgpg-error0:amd64",
+      "version": "1.51-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgpm2:amd64",
+      "version": "1.20.7-11",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgprofng0:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgraphite2-3:amd64",
+      "version": "1.3.14-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgsasl18:amd64",
+      "version": "2.2.1-1willsync1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgssapi-krb5-2:amd64",
+      "version": "1.21.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgssglue1:amd64",
+      "version": "0.9-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgtk-3-0t64:amd64",
+      "version": "3.24.49-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgtk-3-bin",
+      "version": "3.24.49-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libgtk-3-common",
+      "version": "3.24.49-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libharfbuzz0b:amd64",
+      "version": "10.2.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libheif-plugin-aomdec:amd64",
+      "version": "1.19.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libheif-plugin-aomenc:amd64",
+      "version": "1.19.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libheif-plugin-libde265:amd64",
+      "version": "1.19.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libheif1:amd64",
+      "version": "1.19.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libhogweed6t64:amd64",
+      "version": "3.10.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libhwasan0:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libice-dev:amd64",
+      "version": "2:1.1.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libice6:amd64",
+      "version": "2:1.1.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libicu76:amd64",
+      "version": "76.1-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libidn12:amd64",
+      "version": "1.43-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libidn2-0:amd64",
+      "version": "2.3.8-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libimagequant0:amd64",
+      "version": "2.18.0-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libisl23:amd64",
+      "version": "0.27-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libitm1:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjansson4:amd64",
+      "version": "2.14-2build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjbig0:amd64",
+      "version": "2.1-6.1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjemalloc2:amd64",
+      "version": "5.3.0-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjpeg-turbo8:amd64",
+      "version": "2.1.5-3ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjpeg8:amd64",
+      "version": "8c-2ubuntu11",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjs-jquery",
+      "version": "3.6.1+dfsg+~3.5.14-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjs-sphinxdoc",
+      "version": "8.1.3-5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjs-underscore",
+      "version": "1.13.4~dfsg+~1.11.4-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjson-c5:amd64",
+      "version": "0.18+ds-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libjsoncpp26:amd64",
+      "version": "1.9.6-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libk5crypto3:amd64",
+      "version": "1.21.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libkeyutils1:amd64",
+      "version": "1.6.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libkmod2:amd64",
+      "version": "33+20240816-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libkrb5-3:amd64",
+      "version": "1.21.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libkrb5support0:amd64",
+      "version": "1.21.3-4ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libksba8:amd64",
+      "version": "1.6.7-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblcms2-2:amd64",
+      "version": "2.16-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libldap-common",
+      "version": "2.6.9+dfsg-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libldap2:amd64",
+      "version": "2.6.9+dfsg-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblerc4:amd64",
+      "version": "4.0.0+ds-5ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libllvm19:amd64",
+      "version": "1:19.1.7-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libllvm20:amd64",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblocale-gettext-perl",
+      "version": "1.07-7build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblsan0:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libltdl7:amd64",
+      "version": "2.5.4-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblz4-1:amd64",
+      "version": "1.10.0-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "liblzma5:amd64",
+      "version": "5.6.4-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libm17n-0:amd64",
+      "version": "1.8.4-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmailutils9t64:amd64",
+      "version": "1:3.18-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmd0:amd64",
+      "version": "1.1.0-2build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmount1:amd64",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmpc3:amd64",
+      "version": "1.3.1-1build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmpfr6:amd64",
+      "version": "4.2.2-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libmysqlclient24:amd64",
+      "version": "8.4.5-0ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libncurses-dev:amd64",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libncurses6:amd64",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libncursesw6:amd64",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnettle8t64:amd64",
+      "version": "3.10.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnghttp2-14:amd64",
+      "version": "1.64.0-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnpth0t64:amd64",
+      "version": "1.8-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnsl2:amd64",
+      "version": "1.3.0-3build3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnspr4:amd64",
+      "version": "2:4.36-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnss-systemd:amd64",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libnss3:amd64",
+      "version": "2:3.108-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libntlm0:amd64",
+      "version": "1.8-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libobjc-14-dev:amd64",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libobjc4:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libotf1:amd64",
+      "version": "0.9.16-4build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libp11-kit0:amd64",
+      "version": "0.25.5-2ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpam-modules:amd64",
+      "version": "1.5.3-7ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpam-modules-bin",
+      "version": "1.5.3-7ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpam-runtime",
+      "version": "1.5.3-7ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpam-systemd:amd64",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpam0g:amd64",
+      "version": "1.5.3-7ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpango-1.0-0:amd64",
+      "version": "1.56.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpangocairo-1.0-0:amd64",
+      "version": "1.56.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpangoft2-1.0-0:amd64",
+      "version": "1.56.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpciaccess0:amd64",
+      "version": "0.17-3build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpcre2-8-0:amd64",
+      "version": "10.45-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpcsclite1:amd64",
+      "version": "2.3.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libperl5.40:amd64",
+      "version": "5.40.1-2ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpfm4:amd64",
+      "version": "4.13.0+git83-g91970fe-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpipeline1:amd64",
+      "version": "1.5.8-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpixman-1-0:amd64",
+      "version": "0.44.0-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpkgconf3:amd64",
+      "version": "1.8.1-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpng16-16t64:amd64",
+      "version": "1.6.47-1.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpq5:amd64",
+      "version": "17.5-0ubuntu0.25.04.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libproc2-0:amd64",
+      "version": "2:4.0.4-7ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpsl5t64:amd64",
+      "version": "0.21.2-1.1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3-dev:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3-stdlib:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3.13:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3.13-dev:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3.13-minimal:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libpython3.13-stdlib:amd64",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libquadmath0:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libraqm0:amd64",
+      "version": "0.10.2-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libreadline8t64:amd64",
+      "version": "8.2-6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "librhash1:amd64",
+      "version": "1.4.5-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "librsvg2-2:amd64",
+      "version": "2.60.0+dfsg-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "librsvg2-common:amd64",
+      "version": "2.60.0+dfsg-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "librtmp1:amd64",
+      "version": "2.4+20151223.gitfa8646d.1-2build7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsasl2-2:amd64",
+      "version": "2.1.28+dfsg1-9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsasl2-modules:amd64",
+      "version": "2.1.28+dfsg1-9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsasl2-modules-db:amd64",
+      "version": "2.1.28+dfsg1-9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libseccomp2:amd64",
+      "version": "2.5.5-1ubuntu6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libselinux1:amd64",
+      "version": "3.7-3ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsemanage-common",
+      "version": "3.7-2.1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsemanage2:amd64",
+      "version": "3.7-2.1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsensors-config",
+      "version": "1:3.6.0-10",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsensors5:amd64",
+      "version": "1:3.6.0-10",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsepol2:amd64",
+      "version": "3.7-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsframe1:amd64",
+      "version": "2.44-3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsharpyuv0:amd64",
+      "version": "1.5.0-0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsm-dev:amd64",
+      "version": "2:1.2.4-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsm6:amd64",
+      "version": "2:1.2.4-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsmartcols1:amd64",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsodium23:amd64",
+      "version": "1.0.18-1build3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsqlite3-0:amd64",
+      "version": "3.46.1-3ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libss2:amd64",
+      "version": "1.47.2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libssh2-1t64:amd64",
+      "version": "1.11.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libssl3t64:amd64",
+      "version": "3.4.1-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libstdc++-14-dev:amd64",
+      "version": "14.2.0-19ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libstdc++6:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsystemd-shared:amd64",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libsystemd0:amd64",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtasn1-6:amd64",
+      "version": "4.20.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libthai-data",
+      "version": "0.1.29-2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libthai0:amd64",
+      "version": "0.1.29-2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtiff6:amd64",
+      "version": "4.5.1+git230720-4ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtinfo6:amd64",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtirpc-common",
+      "version": "1.3.4+ds-1.3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtirpc3t64:amd64",
+      "version": "1.3.4+ds-1.3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtree-sitter0:amd64",
+      "version": "0.20.8-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libtsan2:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libubsan1:amd64",
+      "version": "15-20250404-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libuchardet0:amd64",
+      "version": "0.0.8-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libudev1:amd64",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libunistring5:amd64",
+      "version": "1.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libunwind8:amd64",
+      "version": "1.6.2-3.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libuuid1:amd64",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libuv1t64:amd64",
+      "version": "1.50.0-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libvulkan1:amd64",
+      "version": "1.4.304.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwayland-client0:amd64",
+      "version": "1.23.1-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwayland-cursor0:amd64",
+      "version": "1.23.1-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwayland-egl1:amd64",
+      "version": "1.23.1-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwayland-server0:amd64",
+      "version": "1.23.1-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwebp7:amd64",
+      "version": "1.5.0-0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwebpdecoder3:amd64",
+      "version": "1.5.0-0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libwebpdemux2:amd64",
+      "version": "1.5.0-0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libx11-6:amd64",
+      "version": "2:1.8.10-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libx11-data",
+      "version": "2:1.8.10-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libx11-dev:amd64",
+      "version": "2:1.8.10-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libx11-xcb1:amd64",
+      "version": "2:1.8.10-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxau-dev:amd64",
+      "version": "1:1.0.11-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxau6:amd64",
+      "version": "1:1.0.11-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxaw7:amd64",
+      "version": "2:1.0.16-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-dri3-0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-glx0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-present0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-randr0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-render0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-shape0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-shm0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-sync1:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb-xfixes0:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb1:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcb1-dev:amd64",
+      "version": "1.17.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcomposite1:amd64",
+      "version": "1:0.4.6-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxcursor1:amd64",
+      "version": "1:1.2.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxdamage1:amd64",
+      "version": "1:1.1.6-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxdmcp-dev:amd64",
+      "version": "1:1.1.5-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxdmcp6:amd64",
+      "version": "1:1.1.5-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxext6:amd64",
+      "version": "2:1.3.4-1build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxfixes3:amd64",
+      "version": "1:6.0.0-2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxfont2:amd64",
+      "version": "1:2.0.6-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxft2:amd64",
+      "version": "2.3.6-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxi6:amd64",
+      "version": "2:1.8.2-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxinerama1:amd64",
+      "version": "2:1.1.4-3build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxkbcommon0:amd64",
+      "version": "1.7.0-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxkbfile1:amd64",
+      "version": "1:1.1.0-1build4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxml2:amd64",
+      "version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxml2-dev:amd64",
+      "version": "2.12.7+dfsg+really2.9.14-0.4ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxmu6:amd64",
+      "version": "2:1.1.3-3build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxmuu1:amd64",
+      "version": "2:1.1.3-3build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxpm4:amd64",
+      "version": "1:3.5.17-1build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxrandr2:amd64",
+      "version": "2:1.5.4-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxrender1:amd64",
+      "version": "1:0.9.10-1.1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxshmfence1:amd64",
+      "version": "1.3-1build5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxt-dev:amd64",
+      "version": "1:1.2.1-1.2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxt6t64:amd64",
+      "version": "1:1.2.1-1.2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxtst6:amd64",
+      "version": "2:1.2.5-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxv1:amd64",
+      "version": "2:1.0.11-1.1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxxf86dga1:amd64",
+      "version": "2:1.1.5-1build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxxf86vm1:amd64",
+      "version": "1:1.1.4-1build4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libxxhash0:amd64",
+      "version": "0.8.3-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libyaml-0-2:amd64",
+      "version": "0.2.5-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "libzstd1:amd64",
+      "version": "1.5.6+dfsg-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "linux-libc-dev:amd64",
+      "version": "6.14.0-15.15",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "linux-sysctl-defaults",
+      "version": "4.10.1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "llvm-20",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "llvm-20-dev",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "llvm-20-linker-tools",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "llvm-20-runtime",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "llvm-20-tools",
+      "version": "1:20.1.2-0ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "locales",
+      "version": "2.41-6ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "login",
+      "version": "1:4.16.0-2+really2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "login.defs",
+      "version": "1:4.16.0-7ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "logsave",
+      "version": "1.47.2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "lto-disabled-list",
+      "version": "57",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "luit",
+      "version": "2.0.20240910-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "m17n-db",
+      "version": "1.8.9-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mailutils",
+      "version": "1:3.18-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mailutils-common",
+      "version": "1:3.18-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "make",
+      "version": "4.4.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "man-db",
+      "version": "2.13.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "manpages",
+      "version": "6.9.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "manpages-dev",
+      "version": "6.9.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mawk",
+      "version": "1.3.4.20250131-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "media-types",
+      "version": "13.0.0",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mesa-libgallium:amd64",
+      "version": "25.0.3-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mesa-vulkan-drivers:amd64",
+      "version": "25.0.3-1ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mount",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "mysql-common",
+      "version": "5.8+1.1.1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "nano",
+      "version": "8.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ncurses-base",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ncurses-bin",
+      "version": "6.5+20250216-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "netbase",
+      "version": "6.4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "networkd-dispatcher",
+      "version": "2.2.4-1.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openjdk-21-jdk:amd64",
+      "version": "21.0.7+6~us1-0ubuntu1~25.04",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openjdk-21-jdk-headless:amd64",
+      "version": "21.0.7+6~us1-0ubuntu1~25.04",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openjdk-21-jre:amd64",
+      "version": "21.0.7+6~us1-0ubuntu1~25.04",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openjdk-21-jre-headless:amd64",
+      "version": "21.0.7+6~us1-0ubuntu1~25.04",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openssh-client",
+      "version": "1:9.9p1-3ubuntu3.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openssl",
+      "version": "3.4.1-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "openssl-provider-legacy",
+      "version": "3.4.1-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "passwd",
+      "version": "1:4.16.0-7ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "patch",
+      "version": "2.7.6-7build3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "perl",
+      "version": "5.40.1-2ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "perl-base",
+      "version": "5.40.1-2ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "perl-modules-5.40",
+      "version": "5.40.1-2ubuntu0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "pinentry-curses",
+      "version": "1.3.1-2ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "pkgconf:amd64",
+      "version": "1.8.1-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "pkgconf-bin",
+      "version": "1.8.1-4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "postfix",
+      "version": "3.9.1-10ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "procps",
+      "version": "2:4.0.4-7ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "publicsuffix",
+      "version": "20250108.1153-0.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-dbus",
+      "version": "1.3.2-5build5",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-dev",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-gi",
+      "version": "3.50.0-4build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-minimal",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-pip",
+      "version": "25.0+dfsg-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-pygments",
+      "version": "2.18.0+dfsg-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-wheel",
+      "version": "0.45.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3-yaml",
+      "version": "6.0.2-1build2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3.13",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3.13-dev",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "python3.13-minimal",
+      "version": "3.13.3-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "readline-common",
+      "version": "8.2-6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "rpcsvc-proto",
+      "version": "1.4.2-0ubuntu7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "sed",
+      "version": "4.9-2build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "sensible-utils",
+      "version": "0.0.24",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "shared-mime-info",
+      "version": "2.4-5build1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ssl-cert",
+      "version": "1.1.3ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "sudo",
+      "version": "1.9.16p2-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "systemd",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "systemd-cryptsetup",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "systemd-resolved",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "systemd-sysv",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "systemd-timesyncd",
+      "version": "257.4-1ubuntu3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "sysvinit-utils",
+      "version": "3.14-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "tar",
+      "version": "1.35+dfsg-3.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "tmux",
+      "version": "3.5a-3",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "tzdata",
+      "version": "2025b-1ubuntu1.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "ubuntu-keyring",
+      "version": "2023.11.28.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "unzip",
+      "version": "6.0-28ubuntu6",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "util-linux",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "uuid-dev:amd64",
+      "version": "2.40.2-14ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "vim",
+      "version": "2:9.1.0967-1ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "vim-common",
+      "version": "2:9.1.0967-1ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "vim-runtime",
+      "version": "2:9.1.0967-1ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "wget",
+      "version": "1.24.5-2ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "x11-common",
+      "version": "1:7.7+23ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "x11-utils",
+      "version": "7.7+7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "x11-xkb-utils",
+      "version": "7.7+9",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "x11proto-dev",
+      "version": "2024.1-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xauth",
+      "version": "1:1.1.2-1.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xdg-user-dirs",
+      "version": "0.18-2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xfonts-base",
+      "version": "1:1.0.5+nmu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xfonts-encodings",
+      "version": "1:1.0.5-0ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xfonts-utils",
+      "version": "1:7.7+7",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xkb-data",
+      "version": "2.42-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xorg-sgml-doctools",
+      "version": "1:1.11-1.1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xserver-common",
+      "version": "2:21.1.16-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xtrans-dev",
+      "version": "1.4.0-1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xvfb",
+      "version": "2:21.1.16-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xxd",
+      "version": "2:9.1.0967-1ubuntu4",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "xz-utils",
+      "version": "5.6.4-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "zip",
+      "version": "3.0-14ubuntu2",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "zlib1g:amd64",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "zlib1g-dev:amd64",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu1",
+      "package_manager": "dpkg"
+    },
+    {
+      "name": "certifi",
+      "version": "2025.7.14",
+      "package_manager": "pip"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "idna",
+      "version": "3.10",
+      "package_manager": "pip"
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "psutil",
+      "version": "7.0.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "requests",
+      "version": "2.32.4",
+      "package_manager": "pip"
+    },
+    {
+      "name": "schedule",
+      "version": "1.2.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "setuptools",
+      "version": "80.9.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.5.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "PyGObject",
+      "version": "3.50.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "dbus-python",
+      "version": "1.3.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "pip",
+      "version": "25.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "pygments",
+      "version": "2.18.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "wheel",
+      "version": "0.45.1",
+      "package_manager": "pip"
+    },
+    {
+      "name": "autocommand",
+      "version": "2.2.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "backports.tarfile",
+      "version": "1.2.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "8.0.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "inflect",
+      "version": "7.3.1",
+      "package_manager": "pip"
+    },
+    {
+      "name": "jaraco.collections",
+      "version": "5.1.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "jaraco.context",
+      "version": "5.3.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "jaraco.functools",
+      "version": "4.0.1",
+      "package_manager": "pip"
+    },
+    {
+      "name": "jaraco.text",
+      "version": "3.12.1",
+      "package_manager": "pip"
+    },
+    {
+      "name": "more-itertools",
+      "version": "10.3.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.2.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "tomli",
+      "version": "2.0.1",
+      "package_manager": "pip"
+    },
+    {
+      "name": "typeguard",
+      "version": "4.3.0",
+      "package_manager": "pip"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.12.2",
+      "package_manager": "pip"
+    },
+    {
+      "name": "zipp",
+      "version": "3.19.2",
+      "package_manager": "pip"
+    }
+  ],
+  "open_ports": [
+    {
+      "port": 26500,
+      "protocol": "tcp",
+      "address": "0.0.0.0",
+      "pid": null,
+      "process_name": null,
+      "process_cmdline": null
+    },
+    {
+      "port": 2375,
+      "protocol": "tcp",
+      "address": "0.0.0.0",
+      "pid": null,
+      "process_name": null,
+      "process_cmdline": null
+    },
+    {
+      "port": 26053,
+      "protocol": "tcp",
+      "address": "::",
+      "pid": 835,
+      "process_name": "node",
+      "process_cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon/node /home/ubuntu/.vm-daemon/bin/vm-daemon/dist/index.cjs 26053 f3e18722-f1c1-4241-8cc5-bf2454321644"
+    }
+  ],
+  "running_processes": [
+    {
+      "pid": 1,
+      "name": "pod-daemon",
+      "executable": "/pod-daemon",
+      "cmdline": "/pod-daemon",
+      "create_time": 1753957712.43
+    },
+    {
+      "pid": 835,
+      "name": "node",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-32fc411ac5b529c0d886bc937f12ebd195de5e5e5947747ae1b138bea75971c8/build/node",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon/node /home/ubuntu/.vm-daemon/bin/vm-daemon/dist/index.cjs 26053 f3e18722-f1c1-4241-8cc5-bf2454321644",
+      "create_time": 1753957718.4
+    },
+    {
+      "pid": 904,
+      "name": "xvfb-run",
+      "executable": "/usr/bin/dash",
+      "cmdline": "/bin/sh /usr/bin/xvfb-run --auto-servernum --server-args -screen 0 2x2x8 /home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --no-sandbox --disable-gpu /workspace --shadow-window-for-workspace-id all-extensions-destroy-after-60-minutes-c52ddf65534b7b46035084358ab7902be4bfef220bdb503ac7039cc861905b05 --user-data-dir /home/ubuntu/.vm-daemon/vm-daemon-cursor-data --extensions-dir /home/ubuntu/.cursor-server/extensions --skip-onboarding true --skip-welcome true --skip-release-notes true --disable-updates true --log debug",
+      "create_time": 1753957723.53
+    },
+    {
+      "pid": 914,
+      "name": "Xvfb",
+      "executable": "/usr/bin/Xvfb",
+      "cmdline": "Xvfb :99 -screen 0 2x2x8 -nolisten tcp -auth /tmp/xvfb-run.Ig3HkN/Xauthority",
+      "create_time": 1753957723.56
+    },
+    {
+      "pid": 917,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --no-sandbox --disable-gpu /workspace --shadow-window-for-workspace-id all-extensions-destroy-after-60-minutes-c52ddf65534b7b46035084358ab7902be4bfef220bdb503ac7039cc861905b05 --user-data-dir /home/ubuntu/.vm-daemon/vm-daemon-cursor-data --extensions-dir /home/ubuntu/.cursor-server/extensions --skip-onboarding true --skip-welcome true --skip-release-notes true --disable-updates true --log debug",
+      "create_time": 1753957723.61
+    },
+    {
+      "pid": 919,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=zygote --no-zygote-sandbox --no-sandbox",
+      "create_time": 1753957723.64
+    },
+    {
+      "pid": 920,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=zygote --no-sandbox",
+      "create_time": 1753957723.64
+    },
+    {
+      "pid": 939,
+      "name": "chrome_crashpad_handler",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/chrome_crashpad_handler",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/ubuntu/.config/Cursor Nightly/Crashpad --url=https://f.a.k/e --annotation=_productName=Cursor Nightly --annotation=_version=1.3.202507290620-nightly --annotation=lsb-release=Ubuntu 25.04 --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=34.5.1 --initial-client-fd=39 --shared-client-connection",
+      "create_time": 1753957724.16
+    },
+    {
+      "pid": 950,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=gpu-process --disable-gpu-sandbox --no-sandbox --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --gpu-preferences=UAAAAAAAAAAgAAAEAAAAQAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753957724.2
+    },
+    {
+      "pid": 955,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753957724.23
+    },
+    {
+      "pid": 991,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=renderer --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --no-sandbox --force-gpu-mem-available-mb=1024 --js-flags=--nodecommit_pooled_pages --disable-gpu-compositing --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=2 --enable-main-",
+      "create_time": 1753957724.38
+    },
+    {
+      "pid": 1161,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753957726.3
+    },
+    {
+      "pid": 1162,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753957726.31
+    },
+    {
+      "pid": 1181,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753957726.38
+    },
+    {
+      "pid": 1663,
+      "name": "cursor-nightly",
+      "executable": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly",
+      "cmdline": "/home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/cursor-nightly --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=0 --enable-crash-reporter=4486b9a1-a4fb-4aa9-b051-47a42a6e3260,no_channel --user-data-dir=/home/ubuntu/.vm-daemon/vm-daemon-cursor-data --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17744677511169329709,18017068573372336460,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version",
+      "create_time": 1753958015.29
+    },
+    {
+      "pid": 1679,
+      "name": "bash",
+      "executable": "/usr/bin/bash",
+      "cmdline": "/usr/bin/bash --init-file /home/ubuntu/.vm-daemon/bin/vm-daemon-cursor-a6551b7494f1c276812636a8e773d45311f6e79ce6d2d13c59a4e9644d28de6d/Cursor-linux-x64/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh",
+      "create_time": 1753958015.57
+    },
+    {
+      "pid": 2093,
+      "name": "python3",
+      "executable": "/usr/bin/python3.13",
+      "cmdline": "python3 vulnerability_scanner.py --once --output demo_scan_results.json",
+      "create_time": 1753958047.8
+    }
+  ],
+  "vulnerabilities": [],
+  "scan_duration": 7.171875476837158,
+  "errors": []
+}
