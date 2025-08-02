@@ -1,0 +1,35 @@
+agent:
+  host_id: "auto"  # Will be auto-generated if "auto"
+  scan_interval: 3600  # Seconds between scans
+  api_key: "your-api-key-here"
+  
+backend:
+  url: "http://localhost:3000"
+  endpoint: "/api/scan"
+  timeout: 30
+  retry_attempts: 3
+  
+scanning:
+  enable_port_scan: true
+  port_range: "1-65535"
+  enable_service_detection: true
+  enable_os_detection: true
+  enable_package_scan: true
+  
+cve_sources:
+  nvd:
+    enabled: true
+    api_key: ""  # Optional, but recommended for higher rate limits
+  vulners:
+    enabled: true
+    api_key: ""  # Required for Vulners API
+    
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/agent.log"
+  max_size: "10MB"
+  backup_count: 5
+  
+security:
+  ssl_verify: true
+  encryption_key: ""  # Optional: encrypt sensitive data before transmission
