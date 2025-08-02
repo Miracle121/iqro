@@ -1,0 +1,111 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:7
+    container_name: hbvm-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-secure_admin_password}
+      MONGO_INITDB_DATABASE: hbvm
+    volumes:
+      - mongodb_data:/data/db
+      - ./docker/mongodb-init.js:/docker-entrypoint-initdb.d/init.js:ro
+    ports:
+      - "27017:27017"
+    networks:
+      - hbvm-network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/hbvm --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # HBVM Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hbvm-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      MONGODB_URI: mongodb://hbvm_user:${HBVM_DB_PASSWORD:-secure_password}@mongodb:27017/hbvm
+      JWT_SECRET: ${JWT_SECRET:-your-super-secret-jwt-key-here-change-in-production}
+      AGENT_API_KEY: ${AGENT_API_KEY:-your-secure-agent-api-key-change-in-production}
+      LOG_LEVEL: info
+    ports:
+      - "3000:3000"
+    volumes:
+      - backend_logs:/app/logs
+    networks:
+      - hbvm-network
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # HBVM Agent (optional for testing)
+  agent:
+    build:
+      context: ./agent
+      dockerfile: Dockerfile
+    container_name: hbvm-agent
+    restart: unless-stopped
+    environment:
+      BACKEND_URL: http://backend:3000
+      AGENT_API_KEY: ${AGENT_API_KEY:-your-secure-agent-api-key-change-in-production}
+      SCAN_INTERVAL: 3600
+      LOG_LEVEL: INFO
+    volumes:
+      - agent_logs:/app/logs
+      - agent_data:/app/data
+    networks:
+      - hbvm-network
+    depends_on:
+      backend:
+        condition: service_healthy
+    profiles:
+      - agent  # Optional service, enable with --profile agent
+
+  # Nginx Reverse Proxy (Production)
+  nginx:
+    image: nginx:alpine
+    container_name: hbvm-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/ssl:/etc/nginx/ssl:ro
+      - nginx_logs:/var/log/nginx
+    networks:
+      - hbvm-network
+    depends_on:
+      - backend
+    profiles:
+      - production
+
+volumes:
+  mongodb_data:
+    driver: local
+  backend_logs:
+    driver: local
+  agent_logs:
+    driver: local
+  agent_data:
+    driver: local
+  nginx_logs:
+    driver: local
+
+networks:
+  hbvm-network:
+    driver: bridge
